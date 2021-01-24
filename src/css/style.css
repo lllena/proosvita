@@ -11,7 +11,7 @@ body {
 
 .container {
   background-color: #4d0a76;
-  max-width: 1100px;
+  max-width: 1050px;
   margin: auto;
   color: #000000;
   border-left: solid 1px #ffffff;
@@ -452,11 +452,11 @@ template {
 .card__text {
   font-size: 30px;
   text-align: center;
-  padding: 40px;
+  padding: 35px;
 }
 
 .card__text--p20px {
-  padding-top: 20px;
+  padding: 20px;
   font-weight: bold;
   color: #7f4f9c;
 }
