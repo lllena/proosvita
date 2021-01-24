@@ -430,6 +430,7 @@ template {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding-bottom: 60px;
 }
 
 .card {
@@ -503,6 +504,14 @@ template {
   width: 30px;
   height: 30px;
   margin-bottom: 5px;
+}
+
+.heading {
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  background-color: #7f4f9c;
 }
 
 @media (max-width: 860px) {
