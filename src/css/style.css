@@ -507,11 +507,51 @@ template {
 }
 
 .heading {
-  font-size: 30px;
+  font-size: 24px;
   color: #ffffff;
   text-align: center;
   padding: 15px;
   background-color: #7f4f9c;
+}
+
+.info {
+  padding: 60px 0 60px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.info-card {
+  height: 400px;
+  background-color: #ffffff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.info-card__text {
+  font-size: 30px;
+}
+
+.info-card__text--cSecondary {
+  color: #3b025e;
+}
+
+.swiper-container {
+  width: 615px;
+  height: 400px;
+}
+
+.swiper-slide__img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.color--black {
+  color: #000000;
 }
 
 @media (max-width: 860px) {
