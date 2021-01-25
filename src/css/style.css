@@ -731,6 +731,10 @@ template {
   padding: 10px;
 }
 
+.partners__head {
+  padding: 60px 0;
+}
+
 @media (max-width: 860px) {
   .navbar-menu__link {
     font-size: 16px;
