@@ -615,6 +615,7 @@ template {
       -ms-flex-align: center;
           align-items: center;
   font-size: 20px;
+  padding-bottom: 45px;
 }
 
 .capabilities-list__item {
@@ -640,6 +641,56 @@ template {
 
 .capabilities-list__text {
   padding-left: 15px;
+}
+
+.block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.block-text {
+  padding: 20px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.block-text--1 {
+  width: 50%;
+  background-color: #ffffff;
+  color: #33084e;
+}
+
+.block-text--2 {
+  width: 50%;
+  background-color: #33084e;
+  color: #ffffff;
+}
+
+.block-text__head {
+  margin: 15px 0;
+}
+
+.block-text__item {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px 0;
+}
+
+.block-text__point {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.block-text__img {
+  width: 40px;
+  height: 40px;
 }
 
 @media (max-width: 860px) {
