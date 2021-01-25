@@ -756,6 +756,10 @@ template {
   padding-left: 60px;
 }
 
+.contacts-logo--link {
+  text-decoration: none;
+}
+
 .contacts-logo__img {
   padding-bottom: 15px;
   max-width: 150px;

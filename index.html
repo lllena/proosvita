@@ -13,25 +13,25 @@
         <nav class="navbar">
           <ul class="navbar-menu">
             <li class="navbar-menu__item">
-              <a class="navbar-menu__link" href="#">Головна</a>
+              <a class="navbar-menu__link" href="#home">Головна</a>
             </li>
             <li class="navbar-menu__item">
-              <a class="navbar-menu__link" href="#">Навчання</a>
+              <a class="navbar-menu__link" href="#study">Навчання</a>
             </li>
             <li class="navbar-menu__item">
-              <a class="navbar-menu__link" href="#">Курси</a>
+              <a class="navbar-menu__link" href="#courses">Курси</a>
             </li>
             <li class="navbar-menu__item">
-              <a class="navbar-menu__link" href="#">Участь</a>
+              <a class="navbar-menu__link" href="#conditions">Участь</a>
             </li>
             <li class="navbar-menu__item">
-              <a class="navbar-menu__link" href="#">Викладачі</a>
+              <a class="navbar-menu__link" href="#teacher">Викладачі</a>
             </li>
             <li class="navbar-menu__item">
-              <a class="navbar-menu__link" href="#">Партнери</a>
+              <a class="navbar-menu__link" href="#partners">Партнери</a>
             </li>
             <li class="navbar-menu__item">
-              <a class="navbar-menu__link" href="#">Контакти</a>
+              <a class="navbar-menu__link" href="#contacts">Контакти</a>
             </li>
           </ul>
         </nav>
@@ -52,7 +52,7 @@
       </div>
       <!-- /.container -->
     </header>
-    <section class="home">
+    <section class="home" id="home">
       <div class="container">
         <div class="cards">
           <div class="card">
@@ -111,13 +111,13 @@
                   src="././img/mail.svg"
                   alt="logo: Mail"
               /></a>
-              <a href="https://www.pab.pl.ua/" class="card-link__item"
+              <a target="_blank" href="https://www.pab.pl.ua/" class="card-link__item"
                 ><img
                   class="card-link__img--web"
                   src="././img/website.svg"
                   alt="logo: Website"
               /></a>
-              <a
+              <a target="_blank"
                 href="https://www.instagram.com/proosvita/"
                 class="card-link__item"
                 ><img
@@ -125,7 +125,7 @@
                   src="././img/inst.svg"
                   alt="logo: Instagram"
               /></a>
-              <a
+              <a target="_blank"
                 href="https://www.facebook.com/asbiznesu.poltava/"
                 class="card-link__item"
                 ><img
@@ -133,7 +133,7 @@
                   src="././img/facebook.svg"
                   alt="logo: Facebook"
               /></a>
-              <a
+              <a target="_blank"
                 href="https://www.youtube.com/channel/UCRRnYVr-3Ea4R3fYDDhnMTw/featured"
                 class="card-link__item"
                 ><img
@@ -148,7 +148,7 @@
       </div>
       <!-- /.container -->
     </section>
-    <section class="study">
+    <section class="study" id="study">
       <div class="container">
         <h3 class="heading">Робимо важливі знання доступними!</h3>
         <div class="info">
@@ -181,13 +181,13 @@
         <!-- /.info -->
       </div>
     </section>
-    <section class="courses">
+    <section class="courses" id="courses">
       <div class="container">
         <h3 class="heading">Курси</h3>
           <div class="cours-wrapper">
-            <div class="cours-card"><img src="img/pro_mrk.png" alt="Pro:marketing" class="cours-card__img"><a href="#" class="cours-card__link">на даний момент реєстрація на курс неможлива</a></div>
-            <div class="cours-card"><img src="img/pro_mng.png" alt="Pro:managment" class="cours-card__img"><a href="#" class="cours-card__link">на даний момент реєстрація на курс неможлива</a></div>
-            <div class="cours-card"><img src="img/pro_e.png" alt="Pro:ekonomiku" class="cours-card__img"><a href="#" class="cours-card__link">на даний момент реєстрація на курс неможлива</a></div>
+            <div class="cours-card"><img src="img/pro_mrk.png" alt="Pro:marketing" class="cours-card__img"><a target="_blank" href="#" class="cours-card__link">на даний момент реєстрація на курс неможлива</a></div>
+            <div class="cours-card"><img src="img/pro_mng.png" alt="Pro:managment" class="cours-card__img"><a target="_blank" href="#" class="cours-card__link">на даний момент реєстрація на курс неможлива</a></div>
+            <div class="cours-card"><img src="img/pro_e.png" alt="Pro:ekonomiku" class="cours-card__img"><a target="_blank" href="#" class="cours-card__link">на даний момент реєстрація на курс неможлива</a></div>
           </div>
           <div class="capabilities">
             <h2 class="capabilities-header">На курсах від “PRO:освіта” ти:</h2>
@@ -214,7 +214,7 @@
           <!-- /.capabilities -->
       </div>
     </section>
-    <section class="conditions">
+    <section class="conditions" id="conditions">
       <div class="container">
         <h3 class="heading">Умови навчання</h3>
         <div class="block">
@@ -267,7 +267,7 @@
         </div>
       </div>
     </section>
-    <section class="teacher">
+    <section class="teacher" id="teacher">
       <div class="container">
         <div class="teacher-slider">
           <h3 class="heading teacher__head">Викладачі</h3>
@@ -293,22 +293,24 @@
         </div>
       </div>
     </section>
-    <section class="partners">
+    <section class="partners" id="partners">
       <div class="container">
         <div class="partners__head">
           <h3 class="heading">Партнери</h3>
         </div>
       </div>
     </section>
-    <footer class="contacts">
+    <footer class="contacts" id="contacts">
       <div class="container">
         <div class="contacts__head">
           <h3 class="heading">Контакти</h3>
         </div>
         <div class="contacts-wrapper">
           <div class="contacts-logo">
-            <img src="img/pab_2.png" alt="logo: Pab" class="contacts-logo__img">
-            <img src="img/logo.png" alt="logo: Pro:osvita" class="contacts-logo__img">
+            <a target="_blank" href="https://www.pab.pl.ua/" class="contacts-logo--link">
+            <img src="img/pab_2.png" alt="logo: Pab" class="contacts-logo__img"></a>
+            <a target="_blank" href="#" class="contacts-logo--link">
+            <img src="img/logo.png" alt="logo: Pro:osvita" class="contacts-logo__img"></a>
           </div>
           <div class="contacts-network">
             <ul class="contacts-network__list">
@@ -329,7 +331,7 @@
                 </a>
               </li>
               <li class="contacts-network__item">
-                <a href="https://goo.gl/maps/Ns8XRgn95FYG2zPJ7" class="contacts-network__link">
+                <a target="_blank" href="https://goo.gl/maps/Ns8XRgn95FYG2zPJ7" class="contacts-network__link">
                   <img src="img/location.svg" alt="icon: location" class="contacts-network__img">
                   <span class="contacts-network__text">
                     м. Полтава, вул Гоголя 21
@@ -337,7 +339,7 @@
                 </a>
               </li>
               <li class="contacts-network__item">
-                <a href="https://www.instagram.com/proosvita/" class="contacts-network__link">
+                <a target="_blank" href="https://www.instagram.com/proosvita/" class="contacts-network__link">
                   <img src="img/inst.svg" alt="icon: Inst" class="contacts-network__img contacts-network__img--inst">
                   <span class="contacts-network__text">
                       @proosvita
@@ -345,7 +347,7 @@
                 </a>
               </li>
               <li class="contacts-network__item">
-                <a href="https://www.facebook.com/asbiznesu.poltava/" class="contacts-network__link">
+                <a target="_blank" href="https://www.facebook.com/asbiznesu.poltava/" class="contacts-network__link">
                   <img src="img/facebook.svg" alt="icon: Facebook" class="contacts-network__img">
                   <span class="contacts-network__text">
                     Полтавська асоціація бізнесу
@@ -353,7 +355,7 @@
                 </a>
               </li>
               <li class="contacts-network__item">
-                <a href="https://www.youtube.com/channel/UCRRnYVr-3Ea4R3fYDDhnMTw/featured" class="contacts-network__link">
+                <a target="_blank" href="https://www.youtube.com/channel/UCRRnYVr-3Ea4R3fYDDhnMTw/featured" class="contacts-network__link">
                   <img src="img/youtube.svg" alt="icon: youtube" class="contacts-network__img">
                   <span class="contacts-network__text">
                     ПАБ – Полтавська асоціація бізнесу
