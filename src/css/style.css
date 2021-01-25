@@ -397,6 +397,13 @@ template {
   font-size: 18px;
 }
 
+.navbar-menu__link:active {
+  background-color: #7f4f9c;
+  padding: 10px 20px 23px 20px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
