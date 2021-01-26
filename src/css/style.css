@@ -977,7 +977,7 @@ template {
     height: 200px;
   }
   .card__text {
-    font-size: 14px;
+    font-size: 16px;
     padding: 20px;
   }
   .card-link {
@@ -1026,7 +1026,7 @@ template {
   }
   .info-card {
     border-radius: 20px;
-    height: 175px;
+    height: 200px;
     margin-left: 0px;
     width: 400px;
     margin: auto;
@@ -1079,12 +1079,12 @@ template {
     padding: 28px;
   }
   .swiper-container {
-    width: 290px;
-    height: 190px;
+    width: 305px;
+    height: 205px;
   }
   .info-card {
-    height: 190px;
-    width: 290px;
+    height: 165px;
+    width: 305px;
   }
   .cours-wrapper {
     padding: 30px 10px;
@@ -1104,8 +1104,17 @@ template {
   .capabilities-list__item {
     width: 90%;
   }
+  .teacher__head {
+    margin-bottom: 30px;
+  }
   .teacher__description {
     display: none;
+  }
+  .block {
+    padding-bottom: 30px;
+  }
+  .partners__head {
+    padding: 30px 0;
   }
   .contacts-wrapper {
     -webkit-box-orient: vertical;
@@ -1125,8 +1134,16 @@ template {
   .contacts-logo__img {
     width: 290px;
   }
+  .contacts-network__list {
+    width: 95%;
+    max-height: 100%;
+    padding: 0;
+  }
   .contacts-network__item {
-    padding: 2px;
+    padding: 4px;
+  }
+  .contacts-network__text {
+    font-size: 16px;
   }
 }
 /*# sourceMappingURL=style.css.map */
