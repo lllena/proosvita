@@ -9,3 +9,7 @@ var mySwiper = new Swiper(".swiper-container", {
   },
 
 });
+const menu = document.querySelector(".menu-collapsed");
+menu.addEventListener("click", () => {
+  menu.classList.toggle("menu-expanded");
+});
