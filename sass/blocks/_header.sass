@@ -1,28 +1,37 @@
-.navbar
-    min-height: 70px
-    height: 100%
+.navbar 
+    position: fixed
+    max-width: 1048px
+    width: 100%
+    z-index: 99 
+    height: 70px
     background-color: $third
     border-bottom: solid 1px $light
     &-menu
         list-style-type: none
         display: flex
         justify-content: space-around
-        padding-top: 25px
+        padding: 25px 25px 0
         &__link
             text-decoration: none
             color: $light
             font-weight: bold
             font-size: 18px
-            &:active
+            padding: 10px 20px 23px 20px 
+            &:hover
                 background-color: $header
                 padding: 10px 20px 23px 20px 
+                border-top-left-radius: 15px
+                border-top-right-radius: 15px
+                transition-duration: 0.5s
+            &:active
+                background-color: $header
                 border-top-left-radius: 15px
                 border-top-right-radius: 15px
 .logo
     display: flex
     flex-direction: column
     align-items: center
-    padding-top: 60px
+    padding-top: 130px
     &-link
         &__image
             width: 580px

@@ -10,12 +10,13 @@ body {
 }
 
 .container {
+  position: relative;
   background-color: #4d0a76;
   max-width: 1050px;
   margin: auto;
   color: #000000;
-  border-left: solid 1px #ffffff;
-  border-right: solid 1px #ffffff;
+  border-left: solid 1px #f2f2f2;
+  border-right: solid 1px #f2f2f2;
 }
 
 img {
@@ -374,10 +375,13 @@ template {
 }
 
 .navbar {
-  min-height: 70px;
-  height: 100%;
+  position: fixed;
+  max-width: 1048px;
+  width: 100%;
+  z-index: 99;
+  height: 70px;
   background-color: #33084e;
-  border-bottom: solid 1px #ffffff;
+  border-bottom: solid 1px #f2f2f2;
 }
 
 .navbar-menu {
@@ -387,19 +391,28 @@ template {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding-top: 25px;
+  padding: 25px 25px 0;
 }
 
 .navbar-menu__link {
   text-decoration: none;
-  color: #ffffff;
+  color: #f2f2f2;
   font-weight: bold;
   font-size: 18px;
+  padding: 10px 20px 23px 20px;
+}
+
+.navbar-menu__link:hover {
+  background-color: #7f4f9c;
+  padding: 10px 20px 23px 20px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 .navbar-menu__link:active {
   background-color: #7f4f9c;
-  padding: 10px 20px 23px 20px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -415,7 +428,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 60px;
+  padding-top: 130px;
 }
 
 .logo-link__image {
@@ -426,7 +439,7 @@ template {
 .logo-tagline {
   font-weight: bold;
   font-size: 24px;
-  color: #ffffff;
+  color: #f2f2f2;
   padding-top: 30px;
   padding-bottom: 60px;
 }
@@ -443,7 +456,7 @@ template {
 .card {
   width: 50%;
   height: 400px;
-  background-color: #ffffff;
+  background-color: #f2f2f2;
 }
 
 .card__br {
@@ -467,7 +480,7 @@ template {
 }
 
 .card__text--p20px {
-  padding: 20px;
+  padding: 5%;
   font-weight: bold;
   color: #7f4f9c;
 }
@@ -492,7 +505,7 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 20px 130px;
+  padding: 20px 100px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -512,14 +525,14 @@ template {
 }
 
 .card-link__img--web, .card-link__img--inst {
-  width: 30px;
-  height: 30px;
-  margin-bottom: 5px;
+  width: 28px;
+  height: 28px;
+  margin-bottom: 6px;
 }
 
 .heading {
   font-size: 24px;
-  color: #ffffff;
+  color: #f2f2f2;
   text-align: center;
   padding: 15px;
   background-color: #7f4f9c;
@@ -534,7 +547,7 @@ template {
 
 .info-card {
   height: 400px;
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   padding: 30px;
@@ -602,11 +615,15 @@ template {
   text-decoration: none;
   font-size: 20px;
   text-align: center;
-  color: #ffffff;
+  color: #f2f2f2;
+}
+
+.cours-card__img--mng {
+  margin-top: -7px;
 }
 
 .capabilities {
-  color: #ffffff;
+  color: #f2f2f2;
 }
 
 .capabilities-header {
@@ -662,7 +679,7 @@ template {
 }
 
 .block-text {
-  padding: 20px 0px;
+  padding: 20px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -673,13 +690,13 @@ template {
 }
 
 .block-text--1 {
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   color: #33084e;
 }
 
 .block-text--2 {
   background-color: #33084e;
-  color: #ffffff;
+  color: #f2f2f2;
 }
 
 .block-text__head {
@@ -709,7 +726,7 @@ template {
 }
 
 .teacher__slide {
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   width: 100%;
   height: 100%;
   border-radius: 20px;
@@ -803,7 +820,7 @@ template {
 
 .contacts-network__link {
   text-decoration: none;
-  color: #ffffff;
+  color: #f2f2f2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -844,6 +861,9 @@ template {
   }
   .card-link {
     padding: 10px 90px;
+  }
+  .cours-card__img--mng {
+    margin-top: 0;
   }
   .contacts-network__block {
     display: -webkit-box;
