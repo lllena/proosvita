@@ -16,23 +16,32 @@
             color: $light
             font-weight: bold
             font-size: 18px
-            padding: 10px 20px 23px 20px 
+            padding: 18px
+            transition: .3s
             &:hover
                 background-color: $header
-                padding: 10px 20px 23px 20px 
-                border-top-left-radius: 15px
-                border-top-right-radius: 15px
-                transition-duration: 0.5s
-            &:active
-                background-color: $header
-                border-top-left-radius: 15px
-                border-top-right-radius: 15px
-.logo
+                border-radius: 15px
+.logo 
     display: flex
     flex-direction: column
     align-items: center
     padding-top: 130px
+    transition: 0.8s
     &-link
+        position: relative 
+        &:after 
+            position: absolute
+            transition: .3s
+            content: ''
+            width: 0
+            left: 50%
+            bottom: -70px         
+            height: 3px
+            background: #f7f7f7
+        &:hover
+            &:after       
+                width: 100%   
+                left: 0 
         &__image
             width: 580px
             height: 100px
@@ -42,4 +51,5 @@
         color: $light
         padding-top: 30px
         padding-bottom: 60px
+        position: relative 
 
